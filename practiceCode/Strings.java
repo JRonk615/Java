@@ -50,6 +50,9 @@ public class Strings {
         b = new String("same letters");
         System.out.println(a == b);
         System.out.println(a.equals(b));
+
+        String[] fruits = new String[5];
+        System.out.println(fruits);
     }
 }
 

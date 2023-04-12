@@ -18,7 +18,7 @@ public class AlfredQuotes {
         else if(response.indexOf("Alfred") > -1) {
             return "Ahh yes... as you wish sir.";
         }
-        else if {
+        else {
             return "Im sorry but if you need something of me please address me politely by name if you may.";
         }
     }

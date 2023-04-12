@@ -27,7 +27,7 @@ public class AlfredTest {
                 switch(command) {
                     case "Alfred what is the date?":
                         System.out.println(getDate);
-                        greeting = "How else my i assist you?";
+                        greeting = "How else may i assist you?";
                         break;
                     
                     case "Alfred will you greet our guest?":
@@ -37,7 +37,7 @@ public class AlfredTest {
                         switch(guest){
                             default:
                             System.out.println("Hello there " + guest);
-                            greeting = "How else my i assist you?";
+                            greeting = "How else may i assist you?";
                             
                         }
                         break;
@@ -50,7 +50,7 @@ public class AlfredTest {
                     default: 
                         System.out.println(greeting);
                 }
-                
+
             }
             else if(command.indexOf("Alexis") > -1) {
                 System.out.println("Im sorry but if you dont mind i will be handling any problems you may have. She is more of a bother than any help!");
